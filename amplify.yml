@@ -22,7 +22,7 @@ frontend:
         - make frontend-build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /frontend/dist
+    baseDirectory: frontend/dist
     files:
       - '**/*'
   cache:
